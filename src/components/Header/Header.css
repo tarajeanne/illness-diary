@@ -9,7 +9,7 @@ a {
   text-align: left;
   border: none;
   font-size: 40px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Fjalla One", cursive;
   color: black;
   position: relative;
   top: -5px;
@@ -159,7 +159,7 @@ header {
     white-space: nowrap;
     border: none;
     font-size: 36px;
-    font-family: "Dancing Script", cursive;
+    font-family: "Fjalla One", cursive;
     color: black;
     margin: 0 5px 0 0;
   }
@@ -223,7 +223,7 @@ header {
     text-align: left;
     border: none;
     font-size: 36px;
-    font-family: "Dancing Script", cursive;
+    font-family: "Fjalla One", cursive;
     margin-left: 10px;
     position: relative;
     top: -10px;
