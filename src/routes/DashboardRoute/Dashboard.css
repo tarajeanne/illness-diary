@@ -40,7 +40,8 @@
 }
 
 .dash-event-container-symptom {
-  border:2px solid #f15e3d;
+  /* border:2px solid #f15e3d; */
+  background-color: #fcd7cf;
   margin:1%;
   border-radius:10px;
   text-align: left;
@@ -52,7 +53,8 @@
 }
 
 .dash-event-container-meal {
-  border:2px solid #558AA4;
+  /* border:2px solid #558AA4; */
+  background-color: #dde8ee;
   margin:1%;
   border-radius:10px;
   text-align: left;

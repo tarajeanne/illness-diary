@@ -218,10 +218,10 @@ export default class DashBoard extends React.Component {
                 className="expand-toggle"
                 onClick={() => this.handleExpandToggle(index)}
               >
-                {this.state.expanded === index ? '-' : '+'}
+                {this.state.expanded === index ? <i className="fas fa-minus fa-xs"></i> : <i className="fas fa-plus fa-xs"></i>}
               </button>
               <i
-                className="fa fa-trash fa-lg"
+                className="fa fa-trash"
                 aria-hidden="true"
                 onClick={() => this.handleDelete(e.id, e.type, index)}
               ></i>
@@ -270,13 +270,11 @@ export default class DashBoard extends React.Component {
               <div className="event-text-section">{`Severity: ${e.severity}`}</div>{' '}
             </div>
             <div className="meal-toggle-cont">
-              <button
-                className="delete-event"
-                aria-label="Delete item"
+            <i
+                className="fa fa-trash"
+                aria-hidden="true"
                 onClick={() => this.handleDelete(e.id, e.type, index)}
-              >
-                <i className="fa fa-trash fa-lg" aria-hidden="true"></i>
-              </button>
+              ></i>
             </div>
           </li>
         );
