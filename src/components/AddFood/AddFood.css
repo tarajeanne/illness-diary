@@ -1,11 +1,9 @@
-
 .add-food-logo{
   opacity: 1;
   height:35px;
   position:absolute;
   right:0;
   top: 37%;
-  
 }
 
 .AddFoodSearchResultsDiv{
@@ -15,6 +13,7 @@
 .AddFoodSearchResultsRow{
   position:relative;
 }
+
 #search-food-button{
   margin: 0 auto;
   color: rgb(0, 0, 0);

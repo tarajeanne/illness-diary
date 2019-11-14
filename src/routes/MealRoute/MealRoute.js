@@ -161,11 +161,7 @@ export default class MealRoute extends React.Component {
                         this.handleRemoveFood(e, index);
                       }}
                     >
-                      <img
-                        className="remove-trash-can"
-                        src={trashCan}
-                        alt="Remove food item"
-                      />
+                      <i className="fa fa-trash fa-lg remove-trash-can" aria-hidden="true" alt="delete food item"></i>
                     </button>
                   </div>
                   <hr />
