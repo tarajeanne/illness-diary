@@ -4,11 +4,6 @@ import DatePicker from "react-datepicker";
 import helper from "../../services/helper.services";
 import "react-datepicker/dist/react-datepicker.css";
 import "./Symptom.css";
-import face1 from "../../Media/wellness_face_1.png";
-import face2 from "../../Media/wellness_face_2.png";
-import face3 from "../../Media/wellness_face_3.png";
-import face4 from "../../Media/wellness_face_4.png";
-import face5 from "../../Media/wellness_face_5.png";
 
 class Symptom extends Component {
   constructor(props) {
@@ -239,7 +234,7 @@ class Symptom extends Component {
                   onChange={e => this.handleSeverityChange(e)}
                 />
                 <label htmlFor="radio-1">
-                  <img className="face" src={face1} alt="Severity Very Mild" />
+                  <i className="far fa-meh fa-3x face" alt="Severity Very Mild"></i>
                 </label>
               </div>
 
@@ -254,7 +249,7 @@ class Symptom extends Component {
                   onChange={e => this.handleSeverityChange(e)}
                 />
                 <label htmlFor="radio-2">
-                  <img className="face" src={face2} alt="Severity Mild" />
+                <i className="far fa-frown fa-3x face" alt="Severity Mild"></i>
                 </label>
               </div>
 
@@ -269,7 +264,7 @@ class Symptom extends Component {
                   onChange={e => this.handleSeverityChange(e)}
                 />
                 <label htmlFor="radio-3">
-                  <img className="face" src={face3} alt="Severity Medium" />
+                <i className="far fa-grimace fa-3x face" alt="severity medium"></i>
                 </label>
               </div>
 
@@ -284,7 +279,7 @@ class Symptom extends Component {
                   onChange={e => this.handleSeverityChange(e)}
                 />
                 <label htmlFor="radio-4">
-                  <img className="face" src={face4} alt="Severity High" />
+                <i className="far fa-tired fa-3x face" alt="severity high"></i>
                 </label>
               </div>
 
@@ -299,7 +294,7 @@ class Symptom extends Component {
                   onChange={e => this.handleSeverityChange(e)}
                 />
                 <label htmlFor="radio-5">
-                  <img className="face" src={face5} alt="Severity Extreme" />
+                <i className="far fa-dizzy fa-3x face" alt="severity extreme"></i>
                 </label>
               </div>
             </div>

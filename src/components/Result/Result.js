@@ -419,7 +419,7 @@ export default class Result extends React.Component {
     return (
       <div id="results">
         <h2>My Results</h2>
-        {this.state.error && <p class="error">There Was An Error!</p>}
+        {this.state.error && <p className="error">There Was An Error!</p>}
         {results.length === 0 ? (
           <div>No Results</div>
         ) : (

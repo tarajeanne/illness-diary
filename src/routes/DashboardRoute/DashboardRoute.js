@@ -330,14 +330,14 @@ export default class DashBoard extends React.Component {
                 className="user-button new-symptom"
                 onClick={(e) => this.openModal(e, 'addSymptomsModal')}
               >
-                <i class="fas fa-notes-medical fa-lg button-logo"></i>
+                <i className="fas fa-notes-medical fa-lg button-logo"></i>
                 Log Symptom
               </button>
               <button
                 className="user-button print-button"
                 onClick={() => this.print()}
               >
-                <i class="fas fa-print fa-lg button-logo"></i>
+                <i className="fas fa-print fa-lg button-logo"></i>
                 Print Logs
               </button>
               <div className=".print-container">{printEvents}</div>

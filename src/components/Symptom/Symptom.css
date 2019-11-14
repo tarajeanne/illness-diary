@@ -154,7 +154,7 @@ input[type="radio"]:checked:before {
   flex-grow: 2;
   color: black;
   /* background-color: yellow; */
-  padding: 8px 2px 0 2px;
+  margin: 8px 2px 0 2px;
   border-radius: 50px;
 }
 
@@ -162,28 +162,28 @@ input[type="radio"]:checked:before {
   flex-grow: 2;
   color: black;
   /* background-color: gold; */
-  padding: 8px 2px 0 2px;
+  margin: 8px 2px 0 2px;
   border-radius: 50px;
 }
 .radio-buttons-3 {
   flex-grow: 2;
   color: black;
   /* background-color: orange; */
-  padding: 8px 2px 0 2px;
+  margin: 8px 2px 0 2px;
   border-radius: 50px;
 }
 .radio-buttons-4 {
   flex-grow: 2;
   color: black;
   /* background-color: orangered; */
-  padding: 8px 2px 0 2px;
+  margin: 8px 2px 0 2px;
   border-radius: 50px;
 }
 .radio-buttons-5 {
   flex-grow: 2;
   color: black;
   /* background-color: red; */
-  padding: 8px 2px 0 2px;
+  margin: 8px 2px 0 2px;
   border-radius: 50px;
 }
 
@@ -248,21 +248,20 @@ input[type="radio"]:checked:before {
 
   .radio-buttons-1 {
     color: black;
-    /* background-color: black; */
-    padding: 8px 8px 0px 8px;
+    margin: 8px 8px 0px 8px;
   }
 
   .radio-buttons-2 {
-    padding: 8px 8px 0px 8px;
+    margin: 8px 8px 0px 8px;
   }
   .radio-buttons-3 {
-    padding: 8px 8px 0px 8px;
+    margin: 8px 8px 0px 8px;
   }
   .radio-buttons-4 {
-    padding: 8px 8px 0px 8px;
+    margin: 8px 8px 0px 8px;
   }
   .radio-buttons-5 {
-    padding: 8px 8px 0px 8px;
+    margin: 8px 8px 0px 8px;
   }
 
   .face {
