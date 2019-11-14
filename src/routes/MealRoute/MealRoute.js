@@ -90,12 +90,7 @@ export default class MealRoute extends React.Component {
   render() {
     return (
       <div className="add-meal-div">
-        <p
-          className="exitButton"
-          onClick={() => this.props.closeModal('addMealModal')}
-        >
-          X
-        </p>
+        <i class="fas fa-times fa-lg exitButton" onClick={() => this.props.closeModal('addMealModal')}></i>
         <h2>Log a Meal</h2>
         <form
           className="add-meal-form"

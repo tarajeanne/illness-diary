@@ -220,11 +220,15 @@ li {
 }
 
 .exitButton{
-  color:red;
   font-size: 26px;
   position: absolute;
   right:25px;
-  top:-7px;
+  top: 15px;
+}
+
+.exitButton:hover {
+  color: yellow;
+  
 }
 
 @media screen and (min-width: 760px) {

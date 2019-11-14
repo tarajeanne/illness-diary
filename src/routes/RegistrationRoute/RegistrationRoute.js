@@ -41,7 +41,7 @@ class RegistrationRoute extends React.Component {
        
         <p>
             {" "}
-            <span className="emphasis">By tracking foods</span> you eat and symptoms you experience, Symptom
+            <h3 className="emphasis">Relationships</h3> By tracking foods you eat and symptoms you experience, Symptom
             Tracker will help draw relationships between the what you eat and
             how you feel.
           </p>
@@ -59,7 +59,7 @@ class RegistrationRoute extends React.Component {
         <div className="mission">
           <p>
             {" "}
-           <span className="emphasis">You can now</span> be better prepared
+           <h3 className="emphasis">Results</h3> You can now be better prepared
             to talk with your doctor about how to take your next steps to
             wellness. <br></br> Happy tracking!
           </p>

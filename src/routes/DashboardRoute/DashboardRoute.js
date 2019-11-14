@@ -325,21 +325,21 @@ export default class DashBoard extends React.Component {
                 className="user-button new-meal"
                 onClick={e => this.openModal(e, "addMealModal")}
               >
-                <img className="button-logo" src={Plate} alt=""></img>
+                <i className="fas fa-utensils fa-lg button-logo"></i>
                 Log Meal
               </button>
               <button
                 className="user-button new-symptom"
                 onClick={e => this.openModal(e, "addSymptomsModal")}
               >
-                <img className="button-logo" src={Symptom} alt=""></img>
+                <i class="fas fa-notes-medical fa-lg button-logo"></i>
                 Log Symptom
               </button>
               <button
                 className="user-button print-button"
                 onClick={() => this.print()}
               >
-                <img className="button-logo" src={Printer} alt=""></img>
+                <i class="fas fa-print fa-lg button-logo"></i>
                 Print Logs
               </button>
               <div className=".print-container">{printEvents}</div>
