@@ -2,7 +2,6 @@ import React from "react";
 import API from "../../services/api-service";
 import ProcessFoodName from "../../services/process-food-name";
 import "./AddFood.css";
-import cart from "../../Media/cart.png";
 
 export default class AddFood extends React.Component {
   state = {

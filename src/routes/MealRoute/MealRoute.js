@@ -5,7 +5,6 @@ import AddFood from '../../components/AddFood/AddFood';
 import API from '../../services/api-service';
 import ProcessFoodName from '../../services/process-food-name';
 import ValidationError from '../../components/ValidationError/ValidationError';
-import trashCan from '../../Media/trash-can.jpg';
 
 import 'react-datepicker/dist/react-datepicker.css';
 

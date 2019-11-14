@@ -5,9 +5,6 @@ import Symptoms from '../../components/Symptom/Symptom';
 import Meal from '../MealRoute/MealRoute';
 import './Dashboard.css';
 import Result from '../../components/Result/Result';
-import Plate from '../../Media/plate.png';
-import Symptom from '../../Media/symptom.png';
-import Printer from '../../Media/print.png';
 
 if (process.env.NODE_ENV !== 'test') Modal.setAppElement('#root');
 export default class DashBoard extends React.Component {
